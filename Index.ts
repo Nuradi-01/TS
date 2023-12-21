@@ -127,6 +127,94 @@ let persons: Person = {
 }
 */
 
+/*Lesson 3 
 
+
+// enum DaysOfWeek {
+//     monday = 1,
+//     tuesday = 2,
+//     wednesday = 3,
+//     thursday, // остальные пойдут 4,5,6,7
+//     friday,
+//     saturday,
+//     sunday,
+// }
+
+// DaysOfWeek.monday //1
+// DaysOfWeek.tuesday //2
+// DaysOfWeek.wednesday //3
+// DaysOfWeek.thursday //4
+// DaysOfWeek.friday // 5 
+// DaysOfWeek.saturday // 6
+// DaysOfWeek.sunday // 7
+
+//2
+enum Mons {
+    January = 1,
+    February = 2,
+    March = 3,
+    April = 4,
+    May = 5,
+    June = 6,
+    July, 
+    August, 
+    September, 
+    October, 
+    November, 
+    December,
+}
+
+const fM = (a): any => {
+ return console.log( Mons[a]);
+
+}
+
+
+enum Colrs {
+    Black = 1,
+    Red = 2,
+    Blue,
+    Orang,
+
+}
+const fC = (b): any => {
+    return console.log(`Выбран цвет ${Colrs[b]}`);
+    
+}
+
+enum Planet {
+    Mercury = 1,
+    Venus = 2,
+    Earth = 3,
+    Mars,
+    Jupiter,
+    Saturn,
+    Uranus,
+    Neptune,
+    Pluto,
+}
+
+const fplan = (c):any => {
+    return console.log(` Номер планеты ${[Planet[c]]}`);
+    
+}
+
+enum Fruits{
+    Apple = 1,
+    Pear,
+    Banana,
+    Peach,
+    Orange,
+    Plum,
+}
+
+const fr = (p):any =>{
+    if (p===Fruits[p]) {
+        return console.log(`Этот Фрукт вкусный`);
+        
+    }return console.log(`Неизвестный Фрукт`);
+    
+}
+*/
 
 
